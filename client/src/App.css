@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  border: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  font-family: "Mulish", sans-serif;
+}
+
+*:focus {
+  outline: 0;
+}
+
+body {
+  background-color: #f3f4ed;
+}
+
+/* ------NAV----- */
+
+.nav-container {
+  background-color: #424642;
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-container .logo a {
+  color: #d44000;
+  font-size: 50px;
+  font-weight: bold;
+}
+.nav-container ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container ul li {
+  margin-right: 30px;
+}
+.nav-container ul li:last-child {
+  margin-right: 0;
+}
+
+.nav-container ul li div {
+  color: #f3f4ed;
+}
+
+/* ------BODY----- */
+
+.body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 30px 0 50px 0;
+  width: 1120px;
+}
+.baslik {
+  font-size: 40px;
+  color: #d44000;
+}
+
+/* ---MAKALE LİSTESİ---- */
+
+.ul-grid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 250px;
+  height: 300px;
+  background-color: #536162;
+  margin: 0 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 30px 20px;
+}
+.card h1 {
+  margin-bottom: 50px;
+  color: #d44000;
+  font-size: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.card h3 {
+  color: #f3f4ed;
+  font-size: 16px;
+  line-height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/* ---MAKALE LİSTESİ---- */
+
+.icerik {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.sil {
+  padding: 10px 0;
+  margin-top: 50px;
+  width: 100vh;
+  background-color: #d44000;
+  color: #f3f4ed;
+  font-size: 25px;
+  border-radius: 15px;
+  font-weight: normal;
+  transition: 200ms all;
+}
+.sil:hover {
+  background-color: #902b00;
+}
+
+/* ---MAKALE EKLE---- */
+
+input{
+  border: 1px solid #dcdff1;
+  border-radius: 5px;
+  width: 50vh;
+  padding: 10px;
+  font-size: 16px;
+}
+
+
+textarea{
+  width: 100vh;
+  border: 1px solid #dcdff1;
+  border-radius: 5px;
+  height: 70px;
+  padding: 10px;
+  font-size: 16px;
+  color: #424642;
+  resize: none;
+  overflow: auto;
+}
+textarea:focus ,input:focus {
+  border-color: #d44000;
+  caret-color: #d44000;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
